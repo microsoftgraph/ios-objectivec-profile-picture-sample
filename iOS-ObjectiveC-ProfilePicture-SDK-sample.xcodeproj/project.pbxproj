@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B3F8BD3D8BBD76EC47FB794 /* libPods-iOS-ObjectiveC-ProfilePicture-SDK-sample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C8DB5ADE8A6836C28DFF93 /* libPods-iOS-ObjectiveC-ProfilePicture-SDK-sample.a */; };
+		D30681AB1D5261A000EE9A75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D30681AA1D5261A000EE9A75 /* main.m */; };
+		D30681AE1D5261A000EE9A75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D30681AD1D5261A000EE9A75 /* AppDelegate.m */; };
+		D30681B11D5261A000EE9A75 /* ProfilePictureController.m in Sources */ = {isa = PBXBuildFile; fileRef = D30681B01D5261A000EE9A75 /* ProfilePictureController.m */; };
+		D30681B41D5261A000EE9A75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30681B21D5261A000EE9A75 /* Main.storyboard */; };
+		D30681B61D5261A000EE9A75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D30681B51D5261A000EE9A75 /* Assets.xcassets */; };
+		D30681B91D5261A000EE9A75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30681B71D5261A000EE9A75 /* LaunchScreen.storyboard */; };
+		D3D04F571D53B4AC00D78D78 /* AuthenticationConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D04F561D53B4AC00D78D78 /* AuthenticationConstants.m */; };
+		D3D04F5A1D53B4BC00D78D78 /* AuthenticationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D04F591D53B4BC00D78D78 /* AuthenticationProvider.m */; };
+		D3D04F5D1D53B60600D78D78 /* ConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D04F5C1D53B60600D78D78 /* ConnectViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		367BEFE47A37A451772D3111 /* Pods-iOS-ObjectiveC-ProfilePicture-SDK-sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-ObjectiveC-ProfilePicture-SDK-sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-ObjectiveC-ProfilePicture-SDK-sample/Pods-iOS-ObjectiveC-ProfilePicture-SDK-sample.release.xcconfig"; sourceTree = "<group>"; };
+		4207C3C1F182BDEDEED3B422 /* Pods-iOS-ObjectiveC-ProfilePicture-SDK-sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-ObjectiveC-ProfilePicture-SDK-sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-ObjectiveC-ProfilePicture-SDK-sample/Pods-iOS-ObjectiveC-ProfilePicture-SDK-sample.debug.xcconfig"; sourceTree = "<group>"; };
+		85C8DB5ADE8A6836C28DFF93 /* libPods-iOS-ObjectiveC-ProfilePicture-SDK-sample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS-ObjectiveC-ProfilePicture-SDK-sample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D30681A61D5261A000EE9A75 /* iOS-ObjectiveC-ProfilePicture-SDK-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-ObjectiveC-ProfilePicture-SDK-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D30681AA1D5261A000EE9A75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D30681AC1D5261A000EE9A75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D30681AD1D5261A000EE9A75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D30681AF1D5261A000EE9A75 /* ProfilePictureController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfilePictureController.h; sourceTree = "<group>"; };
+		D30681B01D5261A000EE9A75 /* ProfilePictureController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfilePictureController.m; sourceTree = "<group>"; };
+		D30681B31D5261A000EE9A75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D30681B51D5261A000EE9A75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D30681B81D5261A000EE9A75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D30681BA1D5261A000EE9A75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3D04F551D53B4AC00D78D78 /* AuthenticationConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AuthenticationConstants.h; path = "iOS-ObjectiveC-ProfilePicture-SDK-sample/AuthenticationConstants.h"; sourceTree = "<group>"; };
+		D3D04F561D53B4AC00D78D78 /* AuthenticationConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AuthenticationConstants.m; path = "iOS-ObjectiveC-ProfilePicture-SDK-sample/AuthenticationConstants.m"; sourceTree = "<group>"; };
+		D3D04F581D53B4BC00D78D78 /* AuthenticationProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AuthenticationProvider.h; path = "iOS-ObjectiveC-ProfilePicture-SDK-sample/AuthenticationProvider.h"; sourceTree = "<group>"; };
+		D3D04F591D53B4BC00D78D78 /* AuthenticationProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AuthenticationProvider.m; path = "iOS-ObjectiveC-ProfilePicture-SDK-sample/AuthenticationProvider.m"; sourceTree = "<group>"; };
+		D3D04F5B1D53B60600D78D78 /* ConnectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectViewController.h; sourceTree = "<group>"; };
+		D3D04F5C1D53B60600D78D78 /* ConnectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D30681A31D5261A000EE9A75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B3F8BD3D8BBD76EC47FB794 /* libPods-iOS-ObjectiveC-ProfilePicture-SDK-sample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CC39E222FB801EC9E16D335 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4207C3C1F182BDEDEED3B422 /* Pods-iOS-ObjectiveC-ProfilePicture-SDK-sample.debug.xcconfig */,
+				367BEFE47A37A451772D3111 /* Pods-iOS-ObjectiveC-ProfilePicture-SDK-sample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6451179A2FBA36AEA3EB56BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85C8DB5ADE8A6836C28DFF93 /* libPods-iOS-ObjectiveC-ProfilePicture-SDK-sample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D306819D1D5261A000EE9A75 = {
+			isa = PBXGroup;
+			children = (
+				D30681A81D5261A000EE9A75 /* iOS-ObjectiveC-ProfilePicture-SDK-sample */,
+				D30681A71D5261A000EE9A75 /* Products */,
+				4CC39E222FB801EC9E16D335 /* Pods */,
+				6451179A2FBA36AEA3EB56BD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D30681A71D5261A000EE9A75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D30681A61D5261A000EE9A75 /* iOS-ObjectiveC-ProfilePicture-SDK-sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D30681A81D5261A000EE9A75 /* iOS-ObjectiveC-ProfilePicture-SDK-sample */ = {
+			isa = PBXGroup;
+			children = (
+				D3D04F5E1D5B97AF00D78D78 /* Controllers */,
+				D3D04F541D53B49800D78D78 /* Authentication */,
+				D30681B21D5261A000EE9A75 /* Main.storyboard */,
+				D30681B71D5261A000EE9A75 /* LaunchScreen.storyboard */,
+				D30681B51D5261A000EE9A75 /* Assets.xcassets */,
+				D30681BA1D5261A000EE9A75 /* Info.plist */,
+				D30681A91D5261A000EE9A75 /* Supporting Files */,
+			);
+			path = "iOS-ObjectiveC-ProfilePicture-SDK-sample";
+			sourceTree = "<group>";
+		};
+		D30681A91D5261A000EE9A75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D30681AA1D5261A000EE9A75 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3D04F541D53B49800D78D78 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				D3D04F551D53B4AC00D78D78 /* AuthenticationConstants.h */,
+				D3D04F561D53B4AC00D78D78 /* AuthenticationConstants.m */,
+				D3D04F581D53B4BC00D78D78 /* AuthenticationProvider.h */,
+				D3D04F591D53B4BC00D78D78 /* AuthenticationProvider.m */,
+			);
+			name = Authentication;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		D3D04F5E1D5B97AF00D78D78 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D3D04F5B1D53B60600D78D78 /* ConnectViewController.h */,
+				D3D04F5C1D53B60600D78D78 /* ConnectViewController.m */,
+				D30681AF1D5261A000EE9A75 /* ProfilePictureController.h */,
+				D30681B01D5261A000EE9A75 /* ProfilePictureController.m */,
+				D30681AC1D5261A000EE9A75 /* AppDelegate.h */,
+				D30681AD1D5261A000EE9A75 /* AppDelegate.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D30681A51D5261A000EE9A75 /* iOS-ObjectiveC-ProfilePicture-SDK-sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D30681BD1D5261A000EE9A75 /* Build configuration list for PBXNativeTarget "iOS-ObjectiveC-ProfilePicture-SDK-sample" */;
+			buildPhases = (
+				469CDB69729EB7481B5C12C2 /* [CP] Check Pods Manifest.lock */,
+				D30681A21D5261A000EE9A75 /* Sources */,
+				D30681A31D5261A000EE9A75 /* Frameworks */,
+				D30681A41D5261A000EE9A75 /* Resources */,
+				49261BD3A9C74CC95A44DA71 /* [CP] Embed Pods Frameworks */,
+				69EAEBA860660A33EDBC0FD6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-ObjectiveC-ProfilePicture-SDK-sample";
+			productName = "iOS-ObjectiveC-ProfilePicture-SDK-sample";
+			productReference = D30681A61D5261A000EE9A75 /* iOS-ObjectiveC-ProfilePicture-SDK-sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D306819E1D5261A000EE9A75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Microsoft;
+				TargetAttributes = {
+					D30681A51D5261A000EE9A75 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D30681A11D5261A000EE9A75 /* Build configuration list for PBXProject "iOS-ObjectiveC-ProfilePicture-SDK-sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D306819D1D5261A000EE9A75;
+			productRefGroup = D30681A71D5261A000EE9A75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D30681A51D5261A000EE9A75 /* iOS-ObjectiveC-ProfilePicture-SDK-sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D30681A41D5261A000EE9A75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D30681B91D5261A000EE9A75 /* LaunchScreen.storyboard in Resources */,
+				D30681B61D5261A000EE9A75 /* Assets.xcassets in Resources */,
+				D30681B41D5261A000EE9A75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		469CDB69729EB7481B5C12C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		49261BD3A9C74CC95A44DA71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-ObjectiveC-ProfilePicture-SDK-sample/Pods-iOS-ObjectiveC-ProfilePicture-SDK-sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69EAEBA860660A33EDBC0FD6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-ObjectiveC-ProfilePicture-SDK-sample/Pods-iOS-ObjectiveC-ProfilePicture-SDK-sample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D30681A21D5261A000EE9A75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D30681B11D5261A000EE9A75 /* ProfilePictureController.m in Sources */,
+				D3D04F5D1D53B60600D78D78 /* ConnectViewController.m in Sources */,
+				D3D04F571D53B4AC00D78D78 /* AuthenticationConstants.m in Sources */,
+				D3D04F5A1D53B4BC00D78D78 /* AuthenticationProvider.m in Sources */,
+				D30681AE1D5261A000EE9A75 /* AppDelegate.m in Sources */,
+				D30681AB1D5261A000EE9A75 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D30681B21D5261A000EE9A75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D30681B31D5261A000EE9A75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D30681B71D5261A000EE9A75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D30681B81D5261A000EE9A75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D30681BB1D5261A000EE9A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D30681BC1D5261A000EE9A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D30681BE1D5261A000EE9A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4207C3C1F182BDEDEED3B422 /* Pods-iOS-ObjectiveC-ProfilePicture-SDK-sample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-ObjectiveC-ProfilePicture-SDK-sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microsoft.iOS-ObjectiveC-ProfilePicture-SDK-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D30681BF1D5261A000EE9A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 367BEFE47A37A451772D3111 /* Pods-iOS-ObjectiveC-ProfilePicture-SDK-sample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-ObjectiveC-ProfilePicture-SDK-sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microsoft.iOS-ObjectiveC-ProfilePicture-SDK-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D30681A11D5261A000EE9A75 /* Build configuration list for PBXProject "iOS-ObjectiveC-ProfilePicture-SDK-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D30681BB1D5261A000EE9A75 /* Debug */,
+				D30681BC1D5261A000EE9A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D30681BD1D5261A000EE9A75 /* Build configuration list for PBXNativeTarget "iOS-ObjectiveC-ProfilePicture-SDK-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D30681BE1D5261A000EE9A75 /* Debug */,
+				D30681BF1D5261A000EE9A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D306819E1D5261A000EE9A75 /* Project object */;
+}
