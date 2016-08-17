@@ -18,7 +18,10 @@ It will cover the following:
 * [Xcode](https://developer.apple.com/xcode/downloads/) from Apple
 * Installation of [CocoaPods](https://guides.cocoapods.org/using/using-cocoapods.html)  as a dependency manager.
 * A Microsoft work account such as Office 365.  You can sign up for [an Office 365 Developer subscription](https://profile.microsoft.com/RegSysProfileCenter/wizardnp.aspx?wizid=14b845d0-938c-45af-b061-f798fbb4d170&lcid=1033) that includes the resources that you need to start building Office 365 apps.
-     > Note: This sample relies on having an organizational account with a profile picture set in Microsoft Exchange.     
+
+
+> Note: This sample relies on having an organizational account with a profile picture set in Microsoft Exchange.
+
 * A client id from the registered app at [Microsoft Graph App Registration Portal](https://graph.microsoft.io/en-us/app-registration). Once at the site click **New App Registration Portal** and then **Go to app list.** From here you can add an app (mobile application), and record the Client ID for the steps below in **Running this sample in Xcode.**
 
 ## Running this sample in Xcode
@@ -35,7 +38,7 @@ It will cover the following:
 
     	// You will set your application's clientId.
 		
-		NSString * const kClientId    = @"ENTER_CLIENT_ID_HERE";
+		NSString * const kClientId    = @"ENTER_YOUR_CLIENT_ID";
 
 5. Run the sample. You'll be asked to connect/authenticate to a work mail account and you'll provide your Office 365 credentials. Once authenticated you'll be taken to the profile controller where you'll have the ability to retrieve both the signed in user's photo and associated meta data. Also, you'll have the ability to crop the photo and upload the newly cropped image to Office 365.
 
