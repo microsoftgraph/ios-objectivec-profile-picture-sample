@@ -1,6 +1,6 @@
 #Microsoft Graph SDK Profile Picture Sample for iOS
 
-This sample is a lightweight project for working with profile pictures in Microsoft Graph, a unified endpoint for accessing data, relationships and insights that come from the Microsoft Cloud. It shows how to connect and authenticate to the service, and then call user photo APIs through the [Microsoft Graph SDK for iOS](https://github.com/microsoftgraph/msgraph-sdk-ios).
+This sample is a lightweight iOS project for working with profile pictures in Microsoft Graph, a unified endpoint for accessing data, relationships and insights that come from the Microsoft Cloud. It shows how to connect and authenticate to the service, and then call user photo APIs through the [Microsoft Graph SDK for iOS](https://github.com/microsoftgraph/msgraph-sdk-ios).
 
 ![Profile Picture Workflow](Images/ProfileWorkflow.jpg)
 
@@ -78,7 +78,7 @@ It will cover the following:
 
 ## Questions and comments
 
-We'd love to get your feedback about the Microsoft Graph SDK Profile Picture Sample. You can send your questions and suggestions to us in the [Issues]() section of this repository.
+We'd love to get your feedback about the Microsoft Graph SDK Profile Picture Sample. You can send your questions and suggestions to us in the [Issues](https://github.com/microsoftgraph/iOS-objectiveC-profile-picture-sample/issues) section of this repository.
 
 Questions about Microsoft Graph development in general should be posted to [Stack Overflow](http://stackoverflow.com/questions/tagged/Office365+API). Make sure that your questions or comments are tagged with [Office365] and [MicrosoftGraph].
 
