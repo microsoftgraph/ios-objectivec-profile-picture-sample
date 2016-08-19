@@ -11,7 +11,7 @@ It will cover the following:
 - Basic cropping of the profile picture
 - Uploading a newly cropped image as a profile picture in Office 365
 
-> Note: Try out the [Microsoft Graph App Registration Portal](https://graph.microsoft.io/en-us/app-registration) page which simplifies registration so you can get this sample running faster.
+> Note: Try out the [Application Registration Portal](https://apps.dev.microsoft.com) page which simplifies registration so you can get this sample running faster.
 
 
 ## Prerequisites
