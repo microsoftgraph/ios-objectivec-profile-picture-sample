@@ -20,7 +20,7 @@ It will cover the following:
 * A Microsoft work account such as Office 365.  You can sign up for [an Office 365 Developer subscription](https://profile.microsoft.com/RegSysProfileCenter/wizardnp.aspx?wizid=14b845d0-938c-45af-b061-f798fbb4d170&lcid=1033) that includes the resources that you need to start building Office 365 apps.
 
 
-> Note: This sample relies on having an organizational account with a profile picture set in Microsoft Exchange.
+> Note: This sample relies on having an organizational account with a profile picture set in Microsoft Exchange or applied in the user's Outlook profile. If there is one not set, retieval of the photo will fail as no image is found.
 
 * A client id from the registered app at [Application Registration Portal](https://apps.dev.microsoft.com). Once at the site click **Go to app list.** From here you can add an app (mobile application), and record the Client ID for the steps below in **Running this sample in Xcode.**
 
