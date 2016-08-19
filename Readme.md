@@ -42,7 +42,7 @@ It will cover the following:
 
 5. Run the sample. You'll be asked to connect/authenticate to a work mail account and you'll provide your Office 365 credentials. Once authenticated you'll be taken to the profile controller where you'll have the ability to retrieve both the signed in user's photo and associated meta data. Also, you'll have the ability to crop the photo and upload the newly cropped image to Office 365.
 
-> Note: The cropping functionality here is basic, and just meant to assist with demonstrating uploading a new image to Office 365. It takes the center portion of the rendered image and displays as a newly cropped image. Any uploaded profile picture must meet the minimum size requirements of 48x48.
+> Note: The cropping functionality here is basic, and just meant to assist with demonstrating uploading a new image to Office 365. It takes the center portion of the rendered image and displays as a newly cropped image. If you crop a picture and wish to return to the original, click **Retrieve Photo.** Any uploaded profile picture must meet the minimum size requirements of 48x48.
 
 ##Code of Interest
 
