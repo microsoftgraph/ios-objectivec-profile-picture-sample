@@ -24,7 +24,7 @@ It will cover the following:
 
 * A client id from the registered app at [Application Registration Portal](https://apps.dev.microsoft.com). Once at the site click **Go to app list.** From here you can add an app (mobile application), and record the Client ID for the steps below in **Running this sample in Xcode.**
 
-## Running this sample in Xcode
+## Cloning and configuring this sample in Xcode
 
 1. Clone this repository.
 2. Use CocoaPods to import the SDK dependencies. This sample app already contains a podfile that will get the pods into the project. Simply navigate to the project root from **Terminal** and run:
@@ -40,7 +40,24 @@ It will cover the following:
 		
 		NSString * const kClientId    = @"ENTER_YOUR_CLIENT_ID";
 
-5. Run the sample. You'll be asked to connect/authenticate to a work mail account and you'll provide your Office 365 credentials. Once authenticated you'll be taken to the profile controller where you'll have the ability to retrieve both the signed in user's photo and associated meta data. Also, you'll have the ability to crop the photo and upload the newly cropped image to Office 365.
+
+<a name="keychain"></a>
+## Enable keychain sharing
+ 
+For Xcode 8, you'll need to add the keychain group or your app will fail to access the keychain. 
+To add the keychain group:
+ 
+1. Select the project on the project manager panel in Xcode. (⌘ + 1).
+ 
+2. Select **iOS-Objectivec-ProfilePicture-SDK-sample**.
+ 
+3. On the Capabilities tab, enable **Keychain Sharing**.
+ 
+4. Add **com.microsoft.iOS-ObjectiveC-ProfilePicture-SDK-sample** to the Keychain Groups.
+
+
+## Running this sample
+1. Run the sample. You'll be asked to connect/authenticate to a work mail account and you'll provide your Office 365 credentials. Once authenticated you'll be taken to the profile controller where you'll have the ability to retrieve both the signed in user's photo and associated meta data. Also, you'll have the ability to crop the photo and upload the newly cropped image to Office 365.
 
 > Note: The cropping functionality here is basic, and just meant to assist with demonstrating uploading a new image to Office 365. It takes the center portion of the rendered image and displays as a newly cropped image. If you crop a picture and wish to return to the original, click **Retrieve Photo.** Any uploaded profile picture must meet the minimum size requirements of 48x48.
 
