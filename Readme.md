@@ -1,4 +1,10 @@
-#Microsoft Graph SDK Profile Picture Sample for iOS
+# [ARCHIVED] Microsoft Graph SDK Profile Picture Sample for iOS
+
+This project is being archived. As part of the archival process, we're closing all open issues and pull requests.
+
+You can continue to use this sample "as-is", but it won't be maintained moving forward. We apologize for any inconvenience.
+
+## Overview
 
 This sample is a lightweight iOS project for working with profile pictures in Microsoft Graph, a unified endpoint for accessing data, relationships and insights that come from the Microsoft Cloud. It shows how to connect and authenticate to the service, and then call user photo APIs through the [Microsoft Graph SDK for iOS](https://github.com/microsoftgraph/msgraph-sdk-ios).
 
